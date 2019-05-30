@@ -54,6 +54,26 @@ body {
   width: 91px;
 }
 
+.stars.one .star:nth-child(-n+1) {
+  background: url("./images/star-active.svg") center no-repeat;
+}
+
+.stars.two .star:nth-child(-n+2) {
+  background: url("./images/star-active.svg") center no-repeat;
+}
+
+.stars.three .star:nth-child(-n+3) {
+  background: url("./images/star-active.svg") center no-repeat;
+}
+
+.stars.four .star:nth-child(-n+4) {
+  background: url("./images/star-active.svg") center no-repeat;
+}
+
+.stars.five .star:nth-child(-n+5) {
+  background: url("./images/star-active.svg") center no-repeat;
+}
+
 .star {
   width: 15px;
   height: 15px;
